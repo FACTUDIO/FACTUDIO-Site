@@ -1,0 +1,326 @@
+//Subscribe Forms
+  //Subscription Setting
+  //Post Subscription Thank you message : 
+👏دستِت درد نکنه، ثبت نام تایید شد
+    //Campaigns by PluginOps Optin Builder
+    --------------------------------------------------------------------------------------------------------------------------
+    //HubSpot account information
+Connected to HubSpot Hub ID: 3337706
+    --------------------------------------------------------------------------------------------------------------------------
+   // MailChimp Extension
+   
+    MailChimp API Key: 65dca5603e7dc92d51604ece0e3a534c-us17
+    MailChimp List ID: e1013c03b6
+    
+    //Edit Contact Form
+      //Form
+      
+      <label> Your Name (required)
+    [text* your-name] </label>
+
+<label> Your Email (required)
+    [email* your-email] </label>
+
+<label> Subject
+    [text your-subject] </label>
+
+<label> Your Message
+    [textarea your-message] </label>
+
+[submit "Send"]
+
+    //Mail
+    //You can edit the mail template here. For details, see Setting Up Mail.
+    //In the following fields, you can use these mail-tags:
+    
+[your-name][your-email][your-subject][your-message]
+//To	
+
+hi@factudio.com
+//From	
+
+[your-name] <hi@factudio.com>
+//Subject	
+
+FACTUDIO® GigaFactory • کارخانه استارتاپ‌های‌ فَـکتـودیـو "[your-subject]"
+//Additional Headers	
+
+Reply-To: [your-email]
+//Message Body	
+
+From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on FACTUDIO® GigaFactory • کارخانه استارتاپ‌های‌ فَـکتـودیـو (https://factudio.com)
+  Exclude lines with blank mail-tags from output
+
+//Contact Form MC Ex
+
+//Form
+
+<label> ایمیل شما (الزامی)
+    [email* your-email] </label>
+
+
+[submit "ارسال "]
+
+
+To	
+hi@factudio.com
+From	
+[your-name] <hi@factudio.com>
+Subject	
+سلام "[your-subject]"
+Additional Headers	
+Reply-To: [your-email]
+Message Body	
+از : [your-name] <[your-email]>
+موضوع: [your-subject]
+
+محتوای پیام :
+[your-message]
+
+ایمیل شما با موفقیت ثبت شد !
+مشکلی در ثبت ایمیل شما بوجود آمده است، لطفا دوباره تلاش کنید.
+یک یا چند تا از مقادیر وارد شده مشکل دارد، لطفا پس از بررسی دوباره تلاش کنید.
+مشکلی در ارسال پیام شما بوجود آمده است، لطفا دوباره تلاش کنید.
+شما باید با شرایط و قوانین موافقت کنید تا قادر به ارسال پیام باشید.
+پر کردن این قسمت اجباری است.
+مقدار وارد شده طولانی است.
+مقدار وارد شده کوتاه است.
+ساختار تاریخ نادرست است.
+تاریخ نسبت به حداقل محدودیت زودتر است.
+تاریخ نسبت به حداکثر محدودیت دیرتر است.
+مشکلی در آپلود فایل شما رخ داده است.
+شما اجازه ندارید از این نوع فایل آپلود کنید.
+حجم فایل شما بسیار زیاد است.
+مشکلی در آپلود فایل شما رخ داده است.
+فرمت عدد نامعتبر است.
+این مقدار کمتر از حداقل مجاز است.
+این مقدار بیشتر از حداکثر مجاز است.
+جواب شما به آزمون اشتباه است.
+ایمیل وارد شده اشتباه است.
+آدرس وارد شده اشتباه است.
+شماره تلفن وارد شده اشتباه است.
+
+//Additional Settings
+
+demo_mode: on
+
+--------------------------------------------------------------------------------------------------------------------------
+//Widgets
+  FOOTER COL1//
+  <a href="https://factudio.com">
+	<img src="https://factudio.com/wp-content/uploads/2018/03/logotypex292.png" alt="logo">
+</a>
+[vc_empty_space height="24px"]
+
+<p>تهران ، خیابان مفتح شمالی ، کوچه آرام ، پلاک 36، زنگ دوم</p>
+<br>
+<p>7421 Frankford Rd. Dallas, Texas.</p><br>
+
+<a href="mailto:hi@factudio.com" style="font-family: IRANSans; direction:rtl;">
+ایمیل : Hi@FACTUDIO.com </a>
+<br><br>
+<a href="tel:982188327368" style="font-family: IRANSans; direction:rtl;">
+تلفن : 68 273 883 021 98+</a> 
+<br><br>
+<a href="tel:982188327368" style="font-family: IRANSans; direction:rtl;">
+فکس : 91 427 883 021 98+</a> 
+[vc_empty_space height="24px"]
+
+[vc_empty_space height="28px"]
+<div class="custom-color-row-changer">
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-facebook" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://www.facebook.com/factudio" target="_blank" icon_color="#3b5998" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -5px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-twitter" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://twitter.com/factudio" target="_blank" icon_color="#55acee" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -4px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-youtube" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://www.youtube.com/channel/UCYZtNLDC_Ekyu2-I7BC0uTA?view_as=subscriber" target="_blank" icon_color="#ff0000" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -5px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-medium" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://medium.com/factudio" target="_blank" icon_color="#02b875" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -5px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-pinterest" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://www.pinterest.de/factudio/" target="_blank" icon_color="#bd081c" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -4px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-linkedin" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://www.linkedin.com/company/factudio" target="_blank" icon_color="#007bb5" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -4px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-foursquare" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://foursquare.com/v/factudio-gigafactory/59cae61d5c683815caa77253" target="_blank" icon_color="#f94877" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -4px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-telegram" size="qodef-icon-tiny"
+custom_size="18" type="square" shape_size="30" icon_animation="" link="https://t.me/FACTUDIO" target="_blank" icon_color="#0088cc" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -5px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-instagram" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://instagram.com/factudio.gigafactory/" target="_blank" icon_color="#c32aa3" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -4px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-angellist" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://angel.co/factudio" target="_blank" icon_color="#ffffff" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -4px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-slack" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://factudio.slack.com" target="_blank" icon_color="#65863a" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -4px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-github" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://github.com/FACTUDIO" target="_blank" icon_color="#ffffff" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -4px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-google-plus" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://plus.google.com/u/0/114267063742086873384" target="_blank" icon_color="#dd4b39" background_color="rgba(255,255,255,0.01)" hover_icon_color="#ff6633" hover_background_color="" margin="0px -4px 0px 0px"]
+
+[qodef_icon icon_pack="font_awesome" fa_icon="fa-heart" size="qodef-icon-tiny" custom_size="18" type="square" shape_size="30" icon_animation="" link="https://NimaAmoli.com" target="_blank" icon_color="#ff6633" background_color="rgba(255,255,255,0.01)" hover_icon_color="red" hover_background_color="" margin="0px -4px 0px 0px"]
+</div>
+
+//FOOTER COL4//
+
+[vc_empty_space height="12px"]
+
+[qodef_custom_font font_family="Raleway" font_size="22" line_height="22" font_weight="700" letter_spacing="0" text_align="left" content_custom_font="Newsletter" color="#ffffff"]
+
+[vc_empty_space height="7px"]
+
+Lorem ipsum dolor sit amet
+
+[vc_empty_space height="20px"]
+
+[contact-form-7 id="1334" title="Contact form 2"]
+
+//FOOTER BLEFT//
+
+<p style="direction: rtl; font-family: iranyekan; margin-left: 20px;">کلیّه حقوق سایت متعلق به کارخانه استارتاپ‌های <a href="https://factudio.com">فَکتـودیـو</a> می‌باشد. | 2016 ©</p>
+
+//FOOTER BRIGHT//
+
+<p style="direction: rtl; font-family: iranyekan; margin-right: 20px;">کارخانه استارتاپ‌های <a href="https://factudio.com">فَـکتـودیـو</a> با ❤ به کارآفرینی موازی</p>
+
+//SIDE AREA//
+
+<a href="https://factudio.com">
+	<img src="https://factudio.com/wp-content/uploads/2018/03/logotypex294.png" alt="logo">
+</a>
+[vc_empty_space height="38px"]
+<h3>استارتاپ استودیو فَـکتـودیـو</h3>
+[vc_empty_space height="18px"]
+فَـکتـودیـو شبکه‌ای جهانی از کارآفرینان بوده که دست در دست متخصصان و بنیانگذاران در سبکی ناب از استودیوهای استارتاپی دست به خلق کسب و کارهای دنیای فردایمان می‌زند. ما در این کارخانۀ استارتاپی برای گسترش کسب و کارها به شرکت‌های مستقل تیم هایی حرفه‌ای را پرورش می‌دهیم. توانایی های ما در کنار خلاقیت شما سرمایه جهان فرداست.
+[vc_empty_space height="18px"]
+استارتاپ استودیو فَـکتـودیـو کارخانه‌ای است که در آن خط تولید نیروی انسانی و اجرای ناب، در بستر استودیو با یکدیگر هم دست شده تا به نقش‌آفرینی و ارزش‌آفرینی بپردازد.
+[vc_empty_space height="26px"]
+توانایی های ما در کنار خلاقیت شما سرمایه جهان فرداست...!
+[vc_empty_space height="26px"]
+<div class="custom-color-row-changer">
+<span style="color: #f26f21; line-height: 20px; font-weight: 700;">Hi@factudio.com</span><br />
+<span style="color: #f26f21; line-height: 20px; font-weight: 700;"> 
+68 273 883 021 98+</span>
+</div>
+
+--------------------------------------------------------------------------------------------------------------------------
+
+MENU//
+
+//MAIN MENU
+
+همکاری با ما
+  
+   کارآفرینان   
+  
+   کارورزان  
+
+   هَکر‌ها
+
+   فرصت‌های شغلی
+
+فَـکت‌لب
+
+جامعه ما
+
+   فَـکتـودیـور‌ها
+
+   همکاران و شرکا     
+
+   نمایندگان
+
+کارپوشه
+
+   استارتاپ‌ها
+
+   شرکت‌ها
+
+   پروژه‌ها
+   -----------------------------------------------
+   
+   FOOTER MENU
+   
+فَـکتـودیـور‌ها
+
+استارتاپ‌های ما
+
+فَـکت‌لَـب
+
+رویداد‌ها وسخنرانی‌ها
+
+سرمایه‌گذاری در فَـکتـودیـو
+
+آکادمی فَـکتـودیـو
+
+تماس با ما
+
+وبسایت‌های مرتبط
+-----------------------------------------------
+USEFUL LINKS
+
+فرصت‌های شغلی
+
+مطبوعات
+
+فرآیند رشد و ساخت شرکت‌ها
+
+پرورش فَـکتـودیـور‌ها جهت هک رشد سازمان‌ها و شرکت‌ها
+
+داستان‌های موفقیت
+
+سوالاتی که از ما می‌پرسند
+
+اخبار
+--------------------------------------------------------------------------------------------------------------------------
+SETTING
+TITLE: FACTUDIO® GigaFactory • کارخانه استارتاپ‌های‌ فَـکتـودیـو
+TAGHLINE:  فَـکتـویـو شبکه‌ای جهانی از کارآفرینان بوده که دست در دست متخصصان و بنیانگذاران در سبکی ناب از استودیوهای استارتاپی دست به خلق کسب و کارهای دنیای فردایمان می‌زند. ما در این کارخانۀ استارتاپی برای گسترش کسب و کارها به شرکت‌های مستقل تیم هایی حرفه‌ای را پرورش می‌دهیم. توانایی های ما در کنار خلاقیت شما سرمایه جهان فرداست.
+
+
+MAILCHIMP SETTING
+
+
+Content Options
+Header	
+همراه با ماجرا‌جویی‌های ما باشید
+
+Add your own text, HTML markup (including image links), or keep it blank.
+Sub-header	
+
+Add your own text, HTML markup (including image links), or keep it blank..
+This will be displayed under the heading and above the form.
+Submit Button	
+همراه می‌شم
+
+Remove MailChimp CSS
+Remove CSS	This will disable all MailChimp CSS, so it’s recommended for WordPress experts only.
+Custom Styling
+Enabled?	Edit the default MailChimp CSS style.
+Border Width (px)	
+1
+ Set to 0 for no border, do not enter px
+Border Color	#
+E0E0E0
+ Do not enter initial #
+Text Color	#
+3F3F3f
+ Do not enter initial #
+Background Color	#
+FFFFFF
+ Do not enter initial #
+ 
+ -----------------------------------------
+ GOOGLE CAPTCHA
+ 
+ 6LeAGUUUAAAAAPy2T_Ayw2hu0prU6RYQ5KqoKy2S
+ 6LeAGUUUAAAAAGALouWvFQmnSAk4stp1E1lylEDf
+ هِی رفیق، حلَه برو. تو لیست سفید مایی
+ 
+ GOOGLE MAP
+ AIzaSyBDT_477Lfo6qKZhdMWW58rpeVvnU2QBoU
+   
+    
