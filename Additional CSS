@@ -1,0 +1,24 @@
+//Customizing Theme//
+//site title= FACTUDIO® GigaFactory • کارخانه استارتاپ‌های‌ فَـکتـودیـو//
+//Tagline= فَـکتـویـو شبکه‌ای جهانی از کارآفرینان بوده که دست در دست متخصصان و بنیانگذاران در سبکی ناب از استودیوهای استارتاپی دست به خلق کسب و کارهای دنیای فردایمان می‌زند. ما در این کارخانۀ استارتاپی برای گسترش کسب و کارها به شرکت‌های مستقل تیم هایی حرفه‌ای را پرورش می‌دهیم. توانایی های ما در کنار خلاقیت شما سرمایه جهان فرداست.
+
+.qodef-main-menu ul
+{
+	text-align: right;
+}
+.qodef-progress-bar
+{
+	direction: ltr;
+}
+//Startit Child: Stylesheet (style.css)
+/*
+Theme Name: Startit Child
+Theme URI: http://startit.select-themes.com
+Description: A child theme of Startit Theme
+Author: Select Themes
+Author URI: http://themeforest.net/user/select-themes
+Version: 1.0.0
+Template: startit
+*/
+@import url("../startit/style.css");
+//Select Options
